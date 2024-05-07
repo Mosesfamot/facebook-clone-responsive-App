@@ -25,3 +25,13 @@ a {
 }
 
 /* GENERAL STYLES START */
+
+
+
+/* NAVBAR AREA START */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
