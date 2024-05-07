@@ -61,6 +61,18 @@ body {
     font-size: 1.4rem;
 }
 
+.login-content .login-area .title-area .title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #333;
+}
+
+.login-content .login-area .title-area .description {
+    color: #333;
+    font-size: 1rem;
+}
+
+
 .login-content .login-area .login-form {
     display: flex;
     flex-direction: column;
