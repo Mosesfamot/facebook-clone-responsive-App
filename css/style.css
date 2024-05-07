@@ -34,4 +34,9 @@ a {
     align-items: center;
     justify-content: space-between;
     background: #fff;
+    padding: 0.73rem 0.37rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0.3rem 0.62rem rgba(0, 0, 0, 0.1);
 }
