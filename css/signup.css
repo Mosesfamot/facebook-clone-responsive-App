@@ -52,7 +52,7 @@ body {
     box-shadow: 0 0.4rem 0.9rem #ccc;
     padding: 2.5rem 1.8rem;
     border-radius: 0.6rem;
-    width: 27rem;
+    width: 30rem;
 }
 
 .login-content .login-area .title-area {
@@ -70,6 +70,25 @@ body {
 .login-content .login-area .title-area .description {
     color: #333;
     font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.login-content .login-area hr {
+    width: 100%;
+    margin: 0.5rem 0;
+    background: #333;
+}
+
+.signup-body {
+    display: flex;
+}
+
+.login-content .login-area .login-form .firstName {
+    margin-right: 0.2rem;
+}
+
+.login-content .login-area .login-form .lastName {
+    margin-left: 0.2rem;
 }
 
 
@@ -95,9 +114,9 @@ body {
 
 .login-content .login-area .login-form .field input {
     width: 100%;
-    padding: 1.1rem 0.75rem;
+    padding: 0.75rem 0.75rem;
     font-size: 1.1em;
-    border: 1px solid #999;
+    border: 0.5px solid #999;
     border-radius: 0.3rem;
 }
 
@@ -120,6 +139,15 @@ body {
     border: none;
     border-radius: 0.3rem;
     cursor: pointer;
+}
+
+.birthday select {
+    padding: 0.75rem 2.18rem;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border: 0.5px solid #999;
 }
 
 .login-content .login-area .or {
