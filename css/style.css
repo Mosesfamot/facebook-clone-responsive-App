@@ -101,7 +101,7 @@ a {
     justify-content: center;
 }
 
-.navbar-right .online {
+.online {
     position: relative;
 }
 
@@ -267,6 +267,17 @@ a {
     width: 100%;
     margin-bottom: 1.25rem;
     border-radius: 0.25rem;
+}
+
+.online-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.online-list .online img {
+    width: 2.5rem;
+    border-radius: 50%;
 }
 
 /* RIGHT NAVBAR END */
