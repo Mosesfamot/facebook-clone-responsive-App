@@ -140,7 +140,7 @@ a {
     align-self: flex-start;
 }
 
-.imp-links a {
+.imp-links a, .shortcut-links a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -152,6 +152,26 @@ a {
 .imp-links a img {
     width: 1.56rem;
     margin-right: 0.93rem;
+}
+
+.imp-links a:last-child {
+    color: #1876f2;
+}
+
+.imp-links {
+    border-bottom: 1px solid #ccc;
+}
+
+.shortcut-links a img {
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    margin-right: 0.93rem;
+}
+
+.shortcut-links p {
+    margin: 1.56rem 0;
+    color: #626262;
+    font-weight: 500;
 }
 
 
