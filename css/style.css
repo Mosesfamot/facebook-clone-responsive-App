@@ -239,7 +239,28 @@ a {
     text-align: center;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1));
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.event p {
+    font-size: 0.75rem;
+}
+
+.event a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #1876f2;
+}
+
+.left-event span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #1876f2;
+    color: #fff;
+    font-size: 0.625rem;
+    padding: 0.25rem 0;
 }
 
 /* RIGHT NAVBAR END */
