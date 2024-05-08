@@ -90,3 +90,30 @@ a {
     padding: 0.5rem;
     border: 0;
 }
+
+.navbar-right .nav-profile-img {
+    width: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-right .online {
+    position: relative;
+}
+
+.online::after {
+    content: '';
+    position: absolute;
+    width: 0.43rem;
+    height: 0.43rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    top: 0px;
+    right: 0px;
+    background: #41db51;
+    margin-right: 3rem;
+}
