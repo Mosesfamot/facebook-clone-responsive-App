@@ -200,6 +200,46 @@ a {
     position: sticky;
     top: 4.375rem;
     align-self: flex-start;
+    background: #fff;
+    padding: 1.25rem;
+    border-radius: 0.25rem;
+    color: #626262;
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.125rem;
+}
+
+.sidebar-title h4 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.sidebar-title a {
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 0.75rem;
+}
+
+.event {
+    display: flex;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.event .left-event {
+    border-radius: 0.625rem;
+    height: 4.06rem;
+    width: 4.06rem;
+    margin-right: 0.93rem;
+    padding-top: 0.625rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1));
 }
 
 /* RIGHT NAVBAR END */
