@@ -124,23 +124,62 @@ a {
     padding: 0.81rem 5%;
 }
 
+/* NAVBAR AREA START */
+
+
+
+
+
+
+/* LEFT NAVBAR START */
+
 .left-sidebar {
-    background: #cbdffa;
     flex-basis: 25%;
     position: sticky;
     top: 4.375rem;
     align-self: flex-start;
 }
 
-.right-sidebar {
-    background: #cbdffa;
-    flex-basis: 25%;
-    position: sticky;
-    top: 4.375rem;
-    align-self: flex-start;
+.imp-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.875rem;
+    color: #626262;
+    width: fit-content;
 }
+
+.imp-links a img {
+    width: 1.56rem;
+    margin-right: 0.93rem;
+}
+
+
+/* LEFT NAVBAR END */
+
+
+
+
+/* MAIN CONTENT START */
 
 .main-content {
     flex-basis: 47%;
 
 }
+
+/* MAIN CONTENT END */
+
+
+
+
+
+/* RIGHT NAVBAR START */
+
+.right-sidebar {
+    flex-basis: 25%;
+    position: sticky;
+    top: 4.375rem;
+    align-self: flex-start;
+}
+
+/* RIGHT NAVBAR END */
