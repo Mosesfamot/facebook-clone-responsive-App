@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Facebook Clone App</title>
     <link rel="icon" href="img/facebook-icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -11,22 +12,23 @@
     <!-- NAVBAR START -->
     <nav class="navbar">
         <section class="navbar-left">
-            <a href="index.html" class="logo"><img src="img/facebook-img.svg" alt="Facebook Logo"></a>
+            <a href="index.html" class="logo"><img src="img/facebook-img-light.svg" alt="Facebook Logo"></a>
+            <ul>
+                <li><a href="#"><i class='bx bx-bell' bx-md style='color:#fff'></i></a></li>
+                <li><a href="#"><i class='bx bx-chat' style='color:#fff' bx-md></i></a></li>
+                <li><a href="#"><i class='bx bx-tv' style='color:#fff' bx-md></i></a></li>
+            </ul>            
+        </section>
 
+        <section class="navbar-right">
             <article class="search-box"> 
                 <img src="img/search.png" alt="Search bar">
                 <input type="text" placeholder="search">
             </article>
+            <article class="online">
+                <img src="img/user-1.png" alt="User Image" class="nav-profile-img">
+            </article>
         </section>
-        <section class="navbar-center">
-            <ul>
-                <li><a href="index.html" class="active-link"><img src="img/home.png" alt="Home Icon"> <span>Home</span></a></li>
-                <li><a href="#"><img src="#" alt="Home Icon"> <span>Message</span></a></li>
-                <li><a href="#"><img src="#" alt="Home Icon"> <span>Notification</span></a></li>
-                <li><a href="#"><img src="#" alt="Home Icon"> <span>Live</span></a></li>
-            </ul>
-        </section>
-
     </nav>
     <!-- NAVBAR END  -->
 </body>
