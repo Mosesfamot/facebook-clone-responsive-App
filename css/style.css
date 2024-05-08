@@ -117,3 +117,30 @@ a {
     background: #41db51;
     margin-right: 3rem;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.81rem 5%;
+}
+
+.left-sidebar {
+    background: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 4.375rem;
+    align-self: flex-start;
+}
+
+.right-sidebar {
+    background: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 4.375rem;
+    align-self: flex-start;
+}
+
+.main-content {
+    flex-basis: 47%;
+
+}
