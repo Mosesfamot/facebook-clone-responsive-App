@@ -263,4 +263,10 @@ a {
     padding: 0.25rem 0;
 }
 
+.sidebar-ads {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    border-radius: 0.25rem;
+}
+
 /* RIGHT NAVBAR END */
