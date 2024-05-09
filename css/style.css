@@ -273,6 +273,24 @@ a {
     color: #626262;
 }
 
+.user-profile small {
+    font-size: 0.75rem;
+}
+
+.post-input-container {
+    padding-left: 3.43rem;
+    padding-top: 1.25rem;
+}
+
+.post-input-container textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+
 /* MAIN CONTENT END */
 
 
