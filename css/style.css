@@ -518,9 +518,21 @@ a {
 }
 
 .user-profile a {
-    font: 0.75rem;
+    font-size: 0.75rem;
     color: #1876f2;
     text-decoration: none;
+    margin-top: 2px;
+}
+
+.settings-menu-inner {
+    padding: 1.25rem;
+}
+
+.settings-menu hr {
+    border: 0;
+    height: 1px;
+    background: #9a9a9a;
+    margin: 0.93rem 0;
 }
 
 /* DROP DOWN MENU END */
