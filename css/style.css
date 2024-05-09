@@ -350,6 +350,38 @@ a {
     margin-bottom: 0.31rem;
 }
 
+.post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-icons article img {
+    width: 1.125rem;
+    margin-right: 0.625rem;
+}
+
+.activity-icons article {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1.875rem;
+}
+
+.post-profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icon img {
+    width: 1.25rem;
+    border-radius: 50%;
+    margin-right: 0.31rem;
+}
+
+.post-row a {
+    color: #9a9a9a;
+}
+
 /* MAIN CONTENT END */
 
 
