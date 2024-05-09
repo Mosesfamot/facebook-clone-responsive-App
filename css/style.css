@@ -508,7 +508,6 @@ a {
     position: absolute;
     width: 90%;
     max-width: 21.875rem;
-    height: 31.25rem;
     background: #fff;
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.4);
     border-radius: 0.25rem;
@@ -533,6 +532,28 @@ a {
     height: 1px;
     background: #9a9a9a;
     margin: 0.93rem 0;
+}
+
+.setting-links {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.4rem 0;
+}
+
+.setting-links .settings-icon {
+    width: 2.375rem;
+    margin-right: 0.625rem;
+    border-radius: 50%;
+}
+
+.setting-links a {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #626262;
 }
 
 /* DROP DOWN MENU END */
