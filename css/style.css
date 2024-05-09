@@ -514,6 +514,12 @@ a {
     overflow: hidden;
     top: 108%;
     right: 5%;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+
+.settings-menu-height {
+    max-height: 28.125rem;
 }
 
 .user-profile a {
