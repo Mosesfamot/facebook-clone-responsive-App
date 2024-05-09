@@ -508,6 +508,19 @@ a {
     position: absolute;
     width: 90%;
     max-width: 21.875rem;
+    height: 31.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    top: 108%;
+    right: 5%;
+}
+
+.user-profile a {
+    font: 0.75rem;
+    color: #1876f2;
+    text-decoration: none;
 }
 
 /* DROP DOWN MENU END */
