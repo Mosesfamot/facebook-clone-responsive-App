@@ -499,3 +499,16 @@ a {
 }
 
 /* RIGHT NAVBAR END */
+
+
+
+/* FOOTER START */
+
+.footer {
+    text-align: center;
+    color: #9a9a9a;
+    padding: 0.625rem 0 1.25rem;
+    font-size: 0.81rem;
+}
+
+/* FOOTER END */
