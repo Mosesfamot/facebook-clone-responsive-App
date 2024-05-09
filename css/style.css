@@ -502,6 +502,18 @@ a {
 
 
 
+/* DROP DOWN MENU START */
+
+.settings-menu {
+    position: absolute;
+    width: 90%;
+    max-width: 21.875rem;
+}
+
+/* DROP DOWN MENU END */
+
+
+
 /* FOOTER START */
 
 .footer {
