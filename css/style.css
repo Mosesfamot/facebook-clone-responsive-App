@@ -562,6 +562,32 @@ a {
     color: #626262;
 }
 
+#dark-btn {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    background: #ccc;
+    width: 2.81rem;
+    border-radius: 0.93rem;
+    padding: 2px 3px;
+    cursor: pointer;
+    transition: padding-left 0.5s, background 0.5s;
+}
+
+#dark-btn span {
+    width: 1.125rem;
+    height: 1.125rem;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+}
+
+#dark-btn.dark-btn-on {
+    padding-left: 1.43rem;
+    background: #000;
+}
+
 /* DROP DOWN MENU END */
 
 
